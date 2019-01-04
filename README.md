@@ -55,7 +55,7 @@ Now, we will try to implement chain of responsibility. For each nominal value, w
     give5 = Give5()
     give1 = Give1()
 
-Each class implements CashHandler abstract class. CashHandler class handles the queue.
+Each class extends CashHandler abstract class. CashHandler class handles the queue.
 
 Now, as we are done with the coding we can get a cash from ATM:
 
